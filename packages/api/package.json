@@ -10,6 +10,9 @@
     "test": "node tests/*.js ",
     "test-integration": "echo 'No integration tests for this package'"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "apollo-server": "^2.22.2",
     "countries-list": "^2.6.1",
@@ -22,5 +25,6 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "eslint": "^7.24.0"
-  }
+  },
+  "gitHead": "1ccd914b18c45e24e683ed6d4946d533bd20b8d3"
 }

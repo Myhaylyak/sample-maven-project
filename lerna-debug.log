@@ -1,0 +1,43 @@
+0 silly argv { _: [ 'version' ], lernaVersion: '4.0.0', '$0': 'lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/yurii.mykhailiak/Projects/KE/lerna-demo/semaphore-demo-monorepo-javascript
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "57349a9" => {"refCount":"24","sha":"57349a9","isDirty":false}
+14 info Assuming all packages changed
+15 verbose updated @ymykhailiak/api
+16 verbose updated @ymykhailiak/web
+17 verbose git-describe undefined => "57349a9"
+18 silly git-describe parsed => {"refCount":"24","sha":"57349a9","isDirty":false}
+19 info execute Skipping releases
+20 silly lifecycle No script for "preversion" in "root", continuing
+21 silly lifecycle No script for "preversion" in "@ymykhailiak/api", continuing
+22 silly lifecycle No script for "preversion" in "@ymykhailiak/web", continuing
+23 silly lifecycle No script for "version" in "@ymykhailiak/api", continuing
+24 silly lifecycle No script for "version" in "@ymykhailiak/web", continuing
+25 silly lifecycle No script for "version" in "root", continuing
+26 silly gitAdd [
+26 silly gitAdd   'packages/api/package.json',
+26 silly gitAdd   'packages/api/package-lock.json',
+26 silly gitAdd   'packages/web/package.json',
+26 silly gitAdd   'packages/web/package-lock.json',
+26 silly gitAdd   'lerna.json'
+26 silly gitAdd ]
+27 silly gitCommit v0.0.1
+28 verbose git [ 'commit', '-m', 'v0.0.1' ]
+29 silly gitTag v0.0.1
+30 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
+31 error Error: Command failed with exit code 128: git tag v0.0.1 -m v0.0.1
+31 error fatal: tag 'v0.0.1' already exists
+31 error     at makeError (/Users/yurii.mykhailiak/.nvm/versions/node/v14.17.4/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+31 error     at handlePromise (/Users/yurii.mykhailiak/.nvm/versions/node/v14.17.4/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
+31 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31 error     at async Promise.all (index 0)

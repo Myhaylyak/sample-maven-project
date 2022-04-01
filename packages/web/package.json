@@ -12,6 +12,9 @@
     "test": "node tests/unit/*.js",
     "test-integration": "node tests/integration/*.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@apollo/client": "^3.3.14",
     "eslint": "^8.12.0",
@@ -28,5 +31,6 @@
     "esm": "^3.2.25",
     "next-test-api-route-handler": "^1.2.23",
     "supertest": "^6.1.3"
-  }
+  },
+  "gitHead": "1ccd914b18c45e24e683ed6d4946d533bd20b8d3"
 }
