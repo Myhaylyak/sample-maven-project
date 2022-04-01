@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@ymykhailiak/web",
   "description": "A Next.js static website showing the capitals of every country.",
   "author": "Tomas Fernandez",
   "repository": "https://github.com/TomFern/semaphore-demo-monorepo-javascript",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.3.14",
+    "eslint": "^8.12.0",
     "graphql": "^15.5.0",
     "next": "10.1.3",
     "react": "17.0.2",
